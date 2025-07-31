@@ -114,7 +114,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://restful-booker.herokuapp.com/booking/222",
+					"raw": "https://restful-booker.herokuapp.com/booking/{{bookingId}}",
 					"protocol": "https",
 					"host": [
 						"restful-booker",
@@ -123,7 +123,7 @@
 					],
 					"path": [
 						"booking",
-						"222"
+						"{{bookingId}}"
 					]
 				}
 			},
@@ -180,7 +180,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://restful-booker.herokuapp.com/booking/222",
+					"raw": "https://restful-booker.herokuapp.com/booking/{{bookingId}}",
 					"protocol": "https",
 					"host": [
 						"restful-booker",
@@ -189,7 +189,7 @@
 					],
 					"path": [
 						"booking",
-						"222"
+						"{{bookingId}}"
 					]
 				}
 			},
